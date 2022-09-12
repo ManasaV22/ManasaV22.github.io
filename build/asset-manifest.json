@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/manasav.github.io/static/css/main.db93fe57.css",
+    "main.js": "/manasav.github.io/static/js/main.2acae2dd.js",
+    "static/js/787.1ed0c42c.chunk.js": "/manasav.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mypic.jpg": "/manasav.github.io/static/media/mypic.cc8ff2841078ee1cb735.jpg",
+    "index.html": "/manasav.github.io/index.html",
+    "main.db93fe57.css.map": "/manasav.github.io/static/css/main.db93fe57.css.map",
+    "main.2acae2dd.js.map": "/manasav.github.io/static/js/main.2acae2dd.js.map",
+    "787.1ed0c42c.chunk.js.map": "/manasav.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db93fe57.css",
+    "static/js/main.2acae2dd.js"
+  ]
+}
