@@ -7,7 +7,112 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  display:flex;
+  justify-content:flex-end;
+  padding:0 80px;
+}
+
+nav ul{
+  display:flex;
+  list-style-type:none;
+  gap:10px
+}
+
+nav ul li{
+  font-size:1.8 rem;
+  font-weight:bold;
+
+}
+
+.content{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin:70px;
+
+}
+h1{
+  margin:0;
+  font-size:2.5rem;
+  font-weight:medium;
+  color:rgb(17, 16, 16);
+
+}
+
+p{
+  font-size:1.4rem;
+  font-weight:medium;
+  color:rgb(65, 62, 62);
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.buttons{
+  display:flex;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.cta{
+  font-weight:bold;
+  padding:20px 30px;
+}
+
+.portfolio{
+  background-color:black;
+  border:2px solid white;
+  color:white;
+}
+
+.portfolio:hover{
+  background-color:white;
+  color:black;
+
+
+}
+figure{
+  margin:0;
+  position:relative;
+}
+
+.mypic-image{
+  border:3px solid black;
+  border-bottom-left-radius:50%;
+  
+  
+}
+
+.img-bg{
+  width:350px;
+  height:450px;
+  backgroud-color:black;
+  position:absolute;
+  top: -10x;
+  left:20px;
+  border-bottom-left-radius:50%;
+  z-index:-1
+
+}
+@media screen and {min-width:800px){
+  .content{
+    flex-direction:row;
+    margin:80px;
+  }
+  h1{
+    font-size:3.5rem;
+  }
+}
+
+.cta{
+  padding:20px 30px;
+  font-size: 1.4rem;
+}
+.buttons{
+  margin:0;
+}
 }
